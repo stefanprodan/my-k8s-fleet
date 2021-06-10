@@ -18,7 +18,7 @@ spec:
     name: podinfo
   targetNamespace: apps
   timeout: 2m0s
-  validation: client
+  validation: server
   patchesStrategicMerge:
   - apiVersion: apps/v1
     kind: Deployment
